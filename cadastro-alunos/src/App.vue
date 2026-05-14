@@ -130,105 +130,19 @@ function limparFormulario() {
 </script>
 
 <style scoped>
-.container {
-  max-width: 600px;
-  margin: 20px auto;
-  font-family: Arial, sans-serif;
-}
-
-h1 {
-  font-size: 24px;
-}
-
 .formulario {
-  border: 1px solid #ccc;
-  padding: 15px;
-  margin-top: 15px;
-  background-color: #f9f9f9;
+  margin: 15px 0;
 }
 
 .campo {
-  margin-bottom: 10px;
-}
-
-.campo label {
-  display: inline-block;
-  width: 80px;
-}
-
-.campo input[type="text"] {
-  padding: 5px;
-  width: 250px;
-}
-
-.botoes-form {
-  margin-top: 15px;
-}
-
-hr {
-  margin: 20px 0;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  padding: 10px;
-  border-bottom: 1px solid #eee;
   margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.acoes-lista {
-  display: flex;
-}
-
-button {
-  margin-right: 5px;
-  cursor: pointer;
-  padding: 5px 10px;
 }
 
 .text-ativo {
   color: green;
-  font-weight: bold;
 }
 
 .text-inativo {
   color: red;
-  font-weight: bold;
-}
-
-.btn-salvar {
-  background-color: #4CAF50;
-  color: white;
-  border: 1px solid #3e8e41;
-}
-
-.btn-editar {
-  background-color: #ffc107;
-  border: 1px solid #e0a800;
-}
-
-.btn-excluir {
-  background-color: #f44336;
-  color: white;
-  border: 1px solid #da190b;
-}
-
-.btn-toggle {
-  background-color: #008CBA;
-  color: white;
-  border: 1px solid #005f7a;
-  padding: 8px 12px;
-}
-
-.mensagem-vazia {
-  font-style: italic;
-  color: #666;
 }
 </style>
