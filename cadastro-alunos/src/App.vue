@@ -130,19 +130,106 @@ function limparFormulario() {
 </script>
 
 <style scoped>
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: sans-serif;
+  color: #333;
+}
+
+h1 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
 .formulario {
+  border: 1px solid #ddd;
+  padding: 15px;
   margin: 15px 0;
+  background-color: #fafafa;
+  border-radius: 4px;
 }
 
 .campo {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.campo label {
+  display: inline-block;
+  width: 90px;
+  font-weight: bold;
+}
+
+.campo input[type="text"] {
+  padding: 6px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  border: 1px solid #eee;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.btn-salvar, .btn-toggle {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.btn-salvar:hover, .btn-toggle:hover {
+  background-color: #45a049;
+}
+
+.btn-excluir {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.btn-excluir:hover {
+  background-color: #da190b;
 }
 
 .text-ativo {
-  color: green;
+  color: #2e7d32;
+  font-weight: bold;
 }
 
 .text-inativo {
-  color: red;
+  color: #c62828;
+  font-weight: bold;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
 }
 </style>
